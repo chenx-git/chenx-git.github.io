@@ -1,0 +1,42 @@
+h5{
+    text-align: center;
+    color:red;
+    font-family: monospace;
+    margin: 20px;
+}
+
+.card-body{
+    color:indigo;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+  }
+
+h3{
+  text-align: center;
+  text-shadow: aqua;
+  color:blue;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin: 2.2%;  
+}
+
+  .row> div{
+    text-align: center;
+    text-size-adjust:auto;
+    font-weight: bold;
+    padding: 10px;
+    background-color:ivory;
+    border: 2px solid purple;
+    margin: 2px;
+    font-family: monospace;
+    }
+
+.links{
+        margin:50px;
+    }
+
+footer{
+    margin:30px;
+    background-color:blue;
+    color: cornsilk;
+    font-family: monospace;
+}

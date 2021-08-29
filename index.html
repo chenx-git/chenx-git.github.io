@@ -1,32 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Website Directory</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <style>
-      h1, h2{
-        text-align: center;
-        text-size-adjust: auto;
-        font-weight: bold;
-        margin: 2.1%;
-      }
-      .row> div{
-        text-align: center;
-        text-size-adjust:auto;
-        font-weight: bold;
-        padding: 20px;
-        background-color:ivory;
-        border: 2px solid purple;
-        margin: 2px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1>Website Directory</h1>
-    <img src="https://th.bing.com/th/id/OIP.DgvihHYbnh-bR5vxtO_E8wHaHa?w=221&h=220&c=7&o=5&dpr=2&pid=1.7" class="rounded mx-auto d-block" width="30%" height="30%" alt="just an img"  >
 
-    <div id="university">
-      <h2>University Sites</h2>
+<body>
+    <img src="https://media2.giphy.com/media/MCG5hiyH7iX4eN8iqH/giphy.gif" class="rounded mx-auto d-block" width="15%" height="15%" alt="R&M gif"  >
+
+    <!--div for time display -->
+    <div class='date'>
+      <h5>Time: <span id=date-time></span>.</h5>
+      <script>
+        const d= new Date();
+        document.getElementById('date-time').innerHTML=d;
+      </script>
+    </div>
+
+    <!--div for quote-->
+    <div class='card-body'>
+      <blockquote class='blockquote mb-0'>
+        <p>“Nobody exists on purpose. Nobody belongs anywhere. We’re all going to die. Come watch TV.”</p>
+      </blockquote>
+    </div>
+
+    <!--div for links display-->
+    <div class="links">
+      <h3>🎓 University Sites</h3>
         <div class="row">
           <div class="col-lg-3 col-sm-6">
             <a href="https://banweb.cityu.edu.hk/pls/PROD/twgkpswd_cityu.P_WWWLogin">CityU Aims</a>
@@ -40,8 +42,8 @@
         </div>
       </div>
 
-      <div id="news">
-        <h2>News</h2>
+      <div class="links">
+        <h3> 🗞️ News</h3>
           <div class="row">
             <div class="col-lg-3 col-sm-6">
               <a href="https://www.scmp.com/">The SCMP</a>
@@ -61,8 +63,8 @@
           </div>
         </div>
 
-        <div id="recreation">
-          <h2>Fun</h2>
+        <div class="links">
+          <h3>🎥 Fun</h3>
             <div class="row">
               <div class="col-lg-3 col-sm-6">
                 <a href="https://www.bilibili.com/">Bilibili</a>
@@ -71,13 +73,30 @@
                 <a href="https://www.youtube.com/">Youtube</a>
               </div>
               <div class="col-lg-3 col-sm-6">
-                <a href="https://www.pornhub.com/">The P-site</a>
-              </div>
-              <div class="col-lg-3 col-sm-6">
                 <a href="https://www.zhihu.com/">Zhihu</a>
               </div>
             </div>
           </div>
+
+        <div class='links'>
+          <h3>👨‍💻 Online Course</h3>
+          <div class="row">
+            <div class="col-lg-3 col-sm-6">
+              <a href="https://www.edx.org">Edx</a>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <a href="https://www.coursera.org/">Coursera</a>
+            </div>
+          </div>
+        </div>
+
+        <!--Footer-->
+        <footer class="page-footer font-small indigo">
+
+          <!--Copyright-->
+          <div class="footer-copyright text-center">Ⓒ 2021 Non-Copyright CXD</div>
+          
+        </footer>
 
 </body>
 </html>
