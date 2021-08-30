@@ -18,13 +18,12 @@
     </script>  
     
     <!--div for time display -->
-    <div class='date'>
-      <h5>🕰️: <span id=date-time></span>.</h5>
-      <script>
-        const d= new Date();
-        document.getElementById('date-time').innerHTML=d;
-      </script>
-    </div>
+    <a href="https://time.is/Hong_Kong" id="time_is_link" rel="nofollow" style="font-size:20px;color:navy">Time in Hong Kong:</a>
+    <span id="Hong_Kong_z419" style="font-size:20px;color:navy"></span>
+    <script src="//widget.time.is/en_gb.js"></script>
+    <script>
+        time_is_widget.init({Hong_Kong_z419:{template:"TIME<br>DATE", time_format:"12hours:minutesAMPM", date_format:"year-monthnum-daynum dayname"}});
+    </script>
 
     <!--div for quote-->
     <div class='card-body'>
