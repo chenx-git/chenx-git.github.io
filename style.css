@@ -1,26 +1,29 @@
 body{
-    background-image:url('https://images.pexels.com/photos/2733664/pexels-photo-2733664.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-image:url('https://images.pexels.com/photos/696680/pexels-photo-696680.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
 }
 
+img{
+  padding: auto;
+}
 
 
 h5{
     text-align: center;
-    color:red;
+    color:darkgreen;
     font-family: monospace;
     margin: 20px;
 }
 
 .card-body{
-    color:indigo;
+    color:gold;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align: center;
+    text-align:center;
   }
 
 h3{
   text-align: center;
   text-shadow: aqua;
-  color:blue;
+  color:greenyellow;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   margin: 2.2%;  
 }
@@ -30,11 +33,11 @@ h3{
     text-size-adjust:auto;
     font-weight: bold;
     padding: 10px;
-    background-color:ivory;
-    border: 2px solid purple;
+    background-color:snow;
     margin: 2px;
     font-family: monospace;
     }
+
 
 .links{
         margin:50px;
@@ -42,7 +45,7 @@ h3{
 
 footer{
     margin:30px;
-    background-color:blue;
-    color: cornsilk;
+    background-color:greenyellow;
+    color:black;
     font-family: monospace;
 }
